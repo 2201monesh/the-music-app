@@ -63,9 +63,9 @@ const TopPlay = () => {
      <div className="w-full flex flex-col">
       <div className="flex flex-row justify-between items-center">
        <h2 className="text-white font-bold text-2xl">Top Charts</h2>
-       <Link to="/top-charts">
+       {/* <Link to="/top-charts">
         <p className="text-gray-300 cursor-pointer text-base">See more</p>
-       </Link>
+       </Link> */}
       </div>
 
       <div className="mt-4 flex flex-col gap-1">
@@ -86,9 +86,9 @@ const TopPlay = () => {
      <div className="w-full flex flex-col mt-8">
       <div className="flex flex-row justify-between items-center">
        <h2 className="text-white font-bold text-2xl">Top Artists</h2>
-       <Link to="/top-artists">
+       {/* <Link to="/top-artists">
         <p className="text-gray-300 cursor-pointer text-base">See more</p>
-       </Link>
+       </Link> */}
       </div>
 
       <Swiper
